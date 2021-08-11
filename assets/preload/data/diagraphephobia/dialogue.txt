@@ -1,0 +1,36 @@
+eteled4:Heh! I guess that wasn't too bad, what do you guys think?:EteledLine12
+bf:Beep boop!:beep
+gf:Yeah, you sounded great too!:EteledGFline2
+eteled5:Thanks... I've never done that much singing before.:EteledLine13
+bf:Beep!:bep
+gf:I figured, since I've never really seen someone like you before. If you don't mind me asking... who are you, exactly?:EteledGFline3
+eteled1:...Should've known that question was coming...:EteledLine14
+start:1
+np-eteled:The name's Eteled, I'm just your average Mii. I have been here for a long time...:EteledLine15
+np-eteled:I've kind of lost track of time to be honest...:EteledLine16
+np-eteled:But I mean, it's usually quite peaceful here.  But, We aren't alone.:EteledLine17
+np-gf:Is there someone else here with us?:EteledGFline4
+np-eteled:...Yes, unfortunately.  Him.:EteledLine18
+np-gf:Who are you talking about?:EteledGFline5
+np-bf:Beep?:beep_question
+switch:2
+np-mystery:Let's experiment with this new thing I found out...:austin1_A01
+switch:3
+np-mystery:Bingo.:austin2_A01
+switch:4
+np-bf:Boop!:boop
+np-eteled:PUT ME DOWN!!:EteledLine19
+np-bf:Beep boop!:beep
+np-gf:Boyfriend, come on...!:EteledGFline6
+np-eteled:LET ME GO, YOU HAVE NO IDEA WHAT YOU ARE DOING, DAMN IT!!!:EteledLine20
+np-bf:(panicked Beep boops):
+switch:5
+np-gf:Uhhh, we should go...:EteledGFline7
+np-bf:Beep!:beep
+switch:6
+music:Eteled_Cutscene_3_1
+np-eteled:...Did you really think that doing that was a good idea!?:EteledLine21
+switch:7
+np-eteled:If there is one thing I need to get through your head... Don't. Delete. Miis.:EteledLine22
+switch:8
+np-eteled:But, heh... let's see if you don't lose your head by the end of this.:EteledLine23

@@ -1,0 +1,14 @@
+austin4:Damn!... That wasn’t bad at all!:austin13_A01
+bf:Boop beep!:beep
+austin2:But I’m not going down that easily. What do you say we have another round?:austin14_A01
+bf:Beep!:beep
+austin1:Great... This is gonna be fun—:austin15_A01
+start:15
+wait:0.5
+fuck
+switch:16
+np-austin:Won’t you look at that!.. It’s the man himself, Henry. Or should I say, “Eteled”!:austin16
+np-eteled:I should have known you would’ve been here, Austin!:EteledLine32
+switchnoboc:17
+wait:2
+credits

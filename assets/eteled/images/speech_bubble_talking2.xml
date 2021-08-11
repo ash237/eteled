@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speech_bubble_talking.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AHH speech bubble0000" x="2" y="2" width="1231" height="408" frameX="-9" frameY="-5" frameWidth="1241" frameHeight="421"/>
+	<SubTexture name="AHH speech bubble0001" x="1235" y="2" width="1228" height="421" frameX="-9" frameY="0" frameWidth="1241" frameHeight="421"/>
+	<SubTexture name="AHH speech bubble0002" x="2465" y="2" width="1241" height="393" frameX="0" frameY="-15" frameWidth="1241" frameHeight="421"/>
+	<SubTexture name="Speech Bubble Normal Open0000" x="3708" y="2" width="40" height="118" frameX="-1005" frameY="0" frameWidth="1263" frameHeight="330"/>
+	<SubTexture name="Speech Bubble Normal Open0001" x="3750" y="2" width="318" height="201" frameX="-822" frameY="-5" frameWidth="1263" frameHeight="330"/>
+	<SubTexture name="Speech Bubble Normal Open0002" x="2" y="425" width="835" height="283" frameX="-374" frameY="-4" frameWidth="1263" frameHeight="330"/>
+	<SubTexture name="Speech Bubble Normal Open0003" x="839" y="425" width="1263" height="315" frameX="0" frameY="-15" frameWidth="1263" frameHeight="330"/>
+	<SubTexture name="Speech Bubble Normal Open0004" x="839" y="425" width="1263" height="315" frameX="0" frameY="-15" frameWidth="1263" frameHeight="330"/>
+	<SubTexture name="animation thingy mii0000" x="2104" y="425" width="71" height="82" frameX="0" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0001" x="2104" y="425" width="71" height="82" frameX="0" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0002" x="2104" y="425" width="71" height="82" frameX="0" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0003" x="2104" y="425" width="71" height="82" frameX="-2" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0004" x="2104" y="425" width="71" height="82" frameX="-3" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0005" x="2104" y="425" width="71" height="82" frameX="-4" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0006" x="2104" y="425" width="71" height="82" frameX="-5" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0007" x="2104" y="425" width="71" height="82" frameX="-5" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0008" x="2104" y="425" width="71" height="82" frameX="-5" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0009" x="2104" y="425" width="71" height="82" frameX="-4" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0010" x="2104" y="425" width="71" height="82" frameX="-2" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0011" x="2104" y="425" width="71" height="82" frameX="-1" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0012" x="2104" y="425" width="71" height="82" frameX="0" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="animation thingy mii0013" x="2104" y="425" width="71" height="82" frameX="0" frameY="0" frameWidth="77" frameHeight="82"/>
+	<SubTexture name="glitch mii speech bubble0000" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0001" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0002" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0003" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0004" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0005" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0006" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0007" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0008" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0009" x="2177" y="425" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0010" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0011" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0012" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0013" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0014" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0015" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0016" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0017" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0018" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="glitch mii speech bubble0019" x="2" y="742" width="1332" height="309"/>
+	<SubTexture name="mii speech bubble normal0000" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0001" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0002" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0003" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0004" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0005" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0006" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0007" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0008" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0009" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0010" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0011" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0012" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0013" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0014" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0015" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0016" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0017" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0018" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="mii speech bubble normal0019" x="1336" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0000" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0001" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0002" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0003" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0004" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0005" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0006" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0007" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0008" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0009" x="2671" y="742" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0010" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0011" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0012" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0013" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0014" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0015" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0016" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0017" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0018" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="samkyle speech bubble normal0019" x="2" y="1053" width="1333" height="309"/>
+	<SubTexture name="speech bubble loud open0000" x="1337" y="1053" width="335" height="295" frameX="-751" frameY="-105" frameWidth="1367" frameHeight="507"/>
+	<SubTexture name="speech bubble loud open0001" x="1674" y="1053" width="1367" height="507"/>
+	<SubTexture name="speech bubble loud open0002" x="1674" y="1053" width="1367" height="507"/>
+	<SubTexture name="speech bubble normal0000" x="2" y="1562" width="1162" height="328" frameX="0" frameY="0" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0001" x="2" y="1562" width="1162" height="328" frameX="0" frameY="0" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0002" x="2" y="1562" width="1162" height="328" frameX="0" frameY="0" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0003" x="2" y="1562" width="1162" height="328" frameX="0" frameY="0" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0004" x="2" y="1562" width="1162" height="328" frameX="0" frameY="0" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0005" x="1166" y="1562" width="1160" height="318" frameX="-4" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0006" x="1166" y="1562" width="1160" height="318" frameX="-4" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0007" x="1166" y="1562" width="1160" height="318" frameX="-4" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0008" x="1166" y="1562" width="1160" height="318" frameX="-4" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0009" x="1166" y="1562" width="1160" height="318" frameX="-4" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0010" x="2328" y="1562" width="1161" height="315" frameX="-6" frameY="-1" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0011" x="2328" y="1562" width="1161" height="315" frameX="-6" frameY="-1" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0012" x="2328" y="1562" width="1161" height="315" frameX="-6" frameY="-1" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0013" x="2328" y="1562" width="1161" height="315" frameX="-6" frameY="-1" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0014" x="2328" y="1562" width="1161" height="315" frameX="-6" frameY="-1" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0015" x="2" y="1892" width="1156" height="311" frameX="-9" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0016" x="2" y="1892" width="1156" height="311" frameX="-9" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0017" x="2" y="1892" width="1156" height="311" frameX="-9" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0018" x="2" y="1892" width="1156" height="311" frameX="-9" frameY="-5" frameWidth="1167" frameHeight="328"/>
+	<SubTexture name="speech bubble normal0019" x="2" y="1892" width="1156" height="311" frameX="-9" frameY="-5" frameWidth="1167" frameHeight="328"/>
+</TextureAtlas>

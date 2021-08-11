@@ -1,0 +1,22 @@
+eteled1:...?!:EteledLine1
+bf:Beep boop!:beep
+eteled2:Were... Were you guys following me just now?:EteledLine2
+bf:Beep!:beep
+eteled3:Uhh, well... Okay, where did you guys come from? How did you even get here?:EteledLine3
+bf:Beep da boop!:boop
+eteled2:Huh, well... I guess that makes sense.:EteledLine4
+gf:Ah, we're sorry... we didn't mean to disturb you, sir!:EteledGFline1
+eteled2:You're fine..:EteledLine5
+eteled2:......:
+bf:......:
+gf:......:
+bf:Beep boop?:
+eteled2:...I'm sorry?:EteledLine6
+bf:Beep boop!:bep
+eteled3:You're challenging me to a rap battle?:EteledLine7
+bf:Beep!:beep
+eteled2:Uhh.. I wasn't expecting that, especially from you guys...:EteledLine8
+eteled3:Well, I don't see why not, I guess...:EteledLine9
+eteled2:Alright, Let's do this!:EteledLine10
+bf:Beep!:beep
+eteled1:I hope I won't regret this...:EteledLine11

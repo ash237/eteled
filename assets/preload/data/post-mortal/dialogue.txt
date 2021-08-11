@@ -1,0 +1,25 @@
+eteled6:Well... you managed to last through all of that without losing a single limb. I'm surprised. So, why not answer this?:EteledLine24
+eteled8:...What the hell was that all about?  What were you thinking?!:EteledLine25
+bf:Beep...!:bep
+gf:H-hey, I mean... At least you're not hurt... Right?:EteledGFline8
+eteled7:Not hurt? Do I seriously look “not hurt” to you!?:EteledLine26
+gf:...um:EteledGFline9
+eteled6:Listen to me. There are a lot of things you don't know about this place.:EteledLine27
+bf:Beep...?:beep_question
+gf:What do you mean by that?:EteledGFline10
+eteled8:Being deleted is painful. Like, physically painful. He knows exactly what I'm talking about...:EteledLine28
+gf:I- I still don't understand... Who is this guy that you're talking about?:EteledGFline11
+eteled7:Oh, I'll show you who he is alright. Starting with you.:EteledLine29
+switchnoboc:9
+wait:0.2
+switchnoboc:10
+wait:0.2
+switch:11
+np-gf:Hey—!  Stop that! You don't have to do this—!:EteledGFline12
+switch:12
+np-eteled:This is what you get..:EteledLine30
+switch:13
+np-gf:Beep!:beep
+switch:14
+np-eteled:Finally... Peace.:EteledLine31
+

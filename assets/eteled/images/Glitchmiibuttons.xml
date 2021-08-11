@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="miibuttons.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stagecurtains0000" x="0" y="0" width="2560" height="1401" frameX="-5" frameY="-11" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0001" x="2560" y="0" width="2561" height="1401" frameX="-5" frameY="-10" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0002" x="5121" y="0" width="2563" height="1401" frameX="-4" frameY="-9" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0003" x="0" y="1401" width="2565" height="1401" frameX="-3" frameY="-6" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0004" x="2565" y="1401" width="2567" height="1401" frameX="-2" frameY="-4" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0005" x="5132" y="1401" width="2569" height="1401" frameX="-1" frameY="-2" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0006" x="0" y="2802" width="2571" height="1401" frameX="0" frameY="0" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0007" x="2571" y="2802" width="2571" height="1401" frameX="0" frameY="0" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0008" x="0" y="2802" width="2571" height="1401" frameX="0" frameY="0" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0009" x="5132" y="1401" width="2569" height="1401" frameX="0" frameY="-1" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0010" x="5142" y="2802" width="2569" height="1401" frameX="-1" frameY="-3" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0011" x="2565" y="1401" width="2567" height="1401" frameX="-3" frameY="-5" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0012" x="0" y="4203" width="2563" height="1401" frameX="-4" frameY="-7" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0013" x="5121" y="0" width="2563" height="1401" frameX="-5" frameY="-9" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0014" x="0" y="0" width="2560" height="1401" frameX="-5" frameY="-10" frameWidth="2571" frameHeight="1412"/>
+	<SubTexture name="stagecurtains0015" x="0" y="0" width="2560" height="1401" frameX="-5" frameY="-11" frameWidth="2571" frameHeight="1412"/>
+</TextureAtlas>
