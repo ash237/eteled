@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eteledmenu.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eteledmenuthing0000" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0001" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0002" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0003" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0004" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0005" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0006" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0007" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0008" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0009" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0010" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0011" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0012" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0013" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0014" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0015" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0016" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0017" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0018" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0019" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0020" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0021" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0022" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0023" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0024" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0025" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0026" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0027" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0028" x="2" y="2" width="638" height="730"/>
+	<SubTexture name="eteledmenuthing0029" x="2" y="2" width="638" height="730"/>
+</TextureAtlas>

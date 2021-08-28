@@ -423,12 +423,17 @@ class FreeplayState extends MusicBeatState
 			case 'Philly-Nice': songHighscore = 'Philly';
 		}
 		
+		if (songs[curSelected].songName.toLowerCase() == 'system-failure') {
+			curDifficulty = 2;
+			diffText.text = "DELETED";
+		} else
+			diffText.text = CoolUtil.difficultyFromInt(curDifficulty).toUpperCase();
 		#if !switch
 		intendedScore = Highscore.getScore(songHighscore, curDifficulty);
 		combo = Highscore.getCombo(songHighscore, curDifficulty);
 		#end
 		diffCalcText.text = 'RATING: ${DiffCalc.CalculateDiff(songData.get(songs[curSelected].songName)[curDifficulty])}';
-		diffText.text = CoolUtil.difficultyFromInt(curDifficulty).toUpperCase();
+		
 	}
 
 	function changeSelection(change:Int = 0)
@@ -449,6 +454,7 @@ class FreeplayState extends MusicBeatState
 		if (curSelected >= songs.length)
 			curSelected = 0;
 
+		
 		if (songs[curSelected].diffs.length != 3)
 		{
 			switch(songs[curSelected].diffs[0])
@@ -460,6 +466,9 @@ class FreeplayState extends MusicBeatState
 				case "Hard":
 					curDifficulty = 2;
 			}
+		}
+		if (songs[curSelected].songName.toLowerCase() == 'system-failure') {
+			curDifficulty = 2;
 		}
 
 		// selector.y = (70 * curSelected) + 30;
@@ -533,6 +542,7 @@ class FreeplayState extends MusicBeatState
 				// item.setGraphicSize(Std.int(item.width));
 			}
 		}
+		changeDiff();
 	}
 }
 

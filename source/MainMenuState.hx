@@ -15,6 +15,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import io.newgrounds.NG;
 import lime.app.Application;
+import flixel.math.FlxPoint;
 
 #if windows
 import Discord.DiscordClient;
@@ -29,7 +30,7 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options'];
+	var optionShit:Array<String> = ['story mode', 'freeplay', 'credits', 'options'];
 	#else
 	var optionShit:Array<String> = ['story mode', 'freeplay'];
 	#end
@@ -46,6 +47,9 @@ class MainMenuState extends MusicBeatState
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 	public static var finishedFunnyMove:Bool = false;
+
+	var imTired:Array<FlxPoint> = [];
+	var didThingy:Bool = false;
 
 	override function create()
 	{
@@ -111,14 +115,25 @@ class MainMenuState extends MusicBeatState
 				{
 					menuItem.antialiasing = true;
 				}
+			//if (!didThingy) {
+					imTired.push(new FlxPoint(menuItem.x, 30 + (i * 160)));
+				
+				didThingy = true;
+			//}
 			if (firstStart)
-				FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
+				FlxTween.tween(menuItem,{y: 30 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
 					{ 
+						
 						finishedFunnyMove = true; 
 						changeItem();
+						
+						
 					}});
-			else
+					
+			else {
 				menuItem.y = 60 + (i * 160);
+				changeItem();
+			}
 		}
 
 		firstStart = false;
@@ -138,7 +153,7 @@ class MainMenuState extends MusicBeatState
 		else
 			controls.setKeyboardScheme(KeyboardScheme.Duo(true), true);
 
-		changeItem();
+		//changeItem();
 
 		super.create();
 	}
@@ -189,9 +204,9 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'credits')
 				{
-					fancyOpenURL("https://ninja-muffin24.itch.io/funkin");
+					fancyOpenURL("https://gamebanana.com/mods/313084");
 				}
 				else
 				{
@@ -240,7 +255,24 @@ class MainMenuState extends MusicBeatState
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			spr.screenCenter(X);
+			
+			switch (optionShit[menuItems.members.indexOf(spr)]) {
+				case 'freeplay':
+					spr.x += 60;
+					if (spr.animation.curAnim.name == 'selected')
+						spr.x += 30;
+				case 'credits':
+					spr.x += 120;
+					if (spr.animation.curAnim.name == 'selected')
+						spr.x += 30;
+				case 'options':
+					spr.x += 100;
+					if (spr.animation.curAnim.name == 'selected')
+						spr.x += 30;
+			}
+			
 		});
+		
 	}
 	
 	function goToState()
@@ -273,12 +305,25 @@ class MainMenuState extends MusicBeatState
 			if (curSelected < 0)
 				curSelected = menuItems.length - 1;
 		}
+		
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			spr.animation.play('idle');
-
+			
+			spr.setPosition(imTired[menuItems.members.indexOf(spr)].x, imTired[menuItems.members.indexOf(spr)].y);
 			if (spr.ID == curSelected && finishedFunnyMove)
 			{
+				switch (optionShit[menuItems.members.indexOf(spr)]) {
+					case 'story mode':
+						spr.setPosition(imTired[menuItems.members.indexOf(spr)].x, imTired[menuItems.members.indexOf(spr)].y - 20);
+					case 'freeplay':
+						spr.setPosition(imTired[menuItems.members.indexOf(spr)].x, imTired[menuItems.members.indexOf(spr)].y - 20);
+					case 'credits':
+						spr.setPosition(imTired[menuItems.members.indexOf(spr)].x, imTired[menuItems.members.indexOf(spr)].y - 20);
+					case 'options':
+						spr.setPosition(imTired[menuItems.members.indexOf(spr)].x, imTired[menuItems.members.indexOf(spr)].y - 23);
+				}
+				//spr.setPosition(imTired[menuItems.members.indexOf(spr)].x, imTired[menuItems.members.indexOf(spr)].y);
 				spr.animation.play('selected');
 				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
 			}

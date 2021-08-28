@@ -82,18 +82,21 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.finished)
 		{
-			FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix));
+			FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix), 0.2);
 			startVibin = true;
 			switch (PlayState.SONG.player2) {
 				case 'eteled1':
 					var random = FlxG.random.int(1, 15);
-					var deathSound = FlxG.sound.play(Paths.sound("EteledLineFailDOP" + random));
+					FlxG.sound.play(Paths.sound("EteledLineFailDOP" + random, 'eteled'));
 				case 'eteled2':
 					var random = FlxG.random.int(1, 12);
-					var deathSound = FlxG.sound.play(Paths.sound("EteledLineFailMAD" + random));
+					FlxG.sound.play(Paths.sound("EteledLineFailMAD" + random, 'eteled'));
+				case 'eteled3':
+					var random = FlxG.random.int(1, 12);
+					FlxG.sound.play(Paths.sound("EteledLineFailMAD" + random, 'eteled'));
 				case 'austin':
 					var random = FlxG.random.int(1, 34);
-					var deathSound = FlxG.sound.play(Paths.sound("AuD" + random));
+					FlxG.sound.play(Paths.sound("AuD" + random, 'eteled'));
 			}
 		}
 

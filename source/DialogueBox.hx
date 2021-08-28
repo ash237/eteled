@@ -183,14 +183,14 @@ class DialogueBox extends FlxSpriteGroup
 		swagDialogue = new FlxTypeText(51, 570, 1192, "", 37);
 		swagDialogue.font = Paths.font('A-OTF-ShinGoPro-DeBold.otf');
 		swagDialogue.color = 0xFFFFFFFF;
-		swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
+		//swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 		swagDialogue.setBorderStyle(OUTLINE, FlxColor.fromString('#FF304845'), 7, 7);
 		add(swagDialogue);
 		
 		coolDialogue = new FlxTypeText(240, 500, Std.int(FlxG.width * 0.6), "", 32);
 		coolDialogue.font = 'Pixel Arial 11 Bold';
 		coolDialogue.color = 0xFF3F2021;
-		coolDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
+		//coolDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 
 		dialogue = new Alphabet(0, 80, "", false, true);
 		cleanDialog();

@@ -362,7 +362,10 @@ class Character extends FlxSprite
 			case 'bf-austin':
 				noteSkin = 'austin';
 				iconColor = 'FF6A0200';
-				tex = Paths.getSparrowAtlas('austin_assets','shared',true);
+				if (glitched)
+					tex = Paths.getSparrowAtlas('austinglitch_assets','shared',true);
+				else
+					tex = Paths.getSparrowAtlas('austin_assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('idle', 'austin idle dance', 24);
 
@@ -371,14 +374,14 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'austin Sing Note DOWN', 24);
 				animation.addByPrefix('singLEFT', 'austin Sing Note RIGHT', 24);
 
-				animation.addByPrefix('singUPmiss', 'austin miss up', 24);
-				animation.addByPrefix('singRIGHTmiss', 'austin miss left', 24);
-				animation.addByPrefix('singDOWNmiss', 'austin miss down', 24);
-				animation.addByPrefix('singLEFTmiss', 'austin miss right', 24);
+				animation.addByPrefix('singUPmiss', 'austin miss up', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'austin miss left', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'austin miss down', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'austin miss right', 24, false);
 
-				animation.addByPrefix('firstDeath', "austin fucking dies", 24, false);
-				animation.addByPrefix('deathLoop', "austin fucking dies loop", 24, false);
-				animation.addByPrefix('deathConfirm', "austin fucking dies confirm", 24, false);
+				animation.addByPrefix('firstDeath', "austin fucking dies0", 24, false);
+				animation.addByPrefix('deathLoop', "austin fucking dies loop0", 24, false);
+				animation.addByPrefix('deathConfirm', "austin fucking dies confirm0", 24, false);
 
 				loadOffsetFile(curCharacter);
 

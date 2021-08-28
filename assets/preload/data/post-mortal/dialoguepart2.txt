@@ -1,8 +1,8 @@
 mystery2:...Heh. You've arrived!:austin3_A01
 bf:Beep?!:beep_question
 gf:Is that...:EteledGFline13
-mystery1:Yep, it sure is. Welcome to “the hallway”, the place where Miis go when they get deleted. Allow me to introduce myself.:austin4_A01
-mystery1:My name is Austin, and I've been watching over you and my little friend from afar, and I must say, I'm impressed…:austin5_A01
+mystery1:Yep, it sure is. Welcome to "the hallway", the place where Miis go when they get deleted. Allow me to introduce myself.:austin4_A01
+mystery1:My name is Austin, and I've been watching over you and my little friend from afar, and I must say, I'm impressed...:austin5_A01
 austin2:I got a kick out of watching! But I figured, why not join in on the fun as well?:austin6
 austin2:I have been stuck in this damn Wii for god knows how long, much longer than you can imagine, that one's for sure.:austin7_A01
 austin3:So, surely it wouldn't hurt having another competitor, now would it? I bet that I can be an even bigger challenge than Eteled ever could.:austin8_A01
