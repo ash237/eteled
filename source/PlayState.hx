@@ -5157,6 +5157,8 @@ class PlayState extends MusicBeatState
 	{
 		super.beatHit();
 
+		if (!PlayStateChangeables.Optimize)
+		{
 		switch (SONG.song.toLowerCase()) {
 			case 'diagraphephobia':
 				switch (curBeat) {
@@ -5183,6 +5185,7 @@ class PlayState extends MusicBeatState
 						foregroundGlitchLayer.clear();*/
 						//be in game
 				}
+		}
 		}
 		if (generatedMusic)
 		{
